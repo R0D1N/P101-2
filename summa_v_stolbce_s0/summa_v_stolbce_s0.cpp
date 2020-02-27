@@ -62,9 +62,6 @@ int sumFunc_1(int rows, int columns, double** matrix) {
 //	return sum;
 //}
 
-//test
-
-
 void fillArray_1(int rows, int columns, double** matrix) {
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < columns; j++) {
@@ -84,6 +81,7 @@ void fillArray_2(int rows, int columns, double* matrix) {
 void deleteMatrix_1(int rows, double** matrix) {
 	for (int i = 0; i < rows; i++) {
 		delete matrix[i];
+		i++:
 	}
 }
 
